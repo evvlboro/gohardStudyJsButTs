@@ -103,60 +103,46 @@ const Lesson1: FC<PropTypes> = () => {
             <HeaderH3>Data types:</HeaderH3>
             <ul>
                 <li>
-                    <div>
-                        <Button
-                            onClick = { showExampleUndefined }>
-                            undefined
-                        </Button>
-                    </div>
+                    <Button
+                        onClick = { showExampleUndefined }>
+                        undefined
+                    </Button>
                 </li>
                 <li>
-                    <div>
-                        <Button
-                            onClick = { showExampleNull }>
-                            null
-                        </Button>
-                    </div>
+                    <Button
+                        onClick = { showExampleNull }>
+                        null
+                    </Button>
                 </li>
                 <li>
-                    <div>
-                        <Button
-                            onClick = { showExampleBoolean }>
-                            boolean
-                        </Button>
-                    </div>
+                    <Button
+                        onClick = { showExampleBoolean }>
+                        boolean
+                    </Button>
                 </li>
                 <li>
-                    <div>
-                        <Button
-                            onClick = { showExampleNumber }>
-                            number
-                        </Button>
-                    </div>
+                    <Button
+                        onClick = { showExampleNumber }>
+                        number
+                    </Button>
                 </li>
                 <li>
-                    <div>
-                        <Button
-                            onClick = { showExampleString }>
-                            string
-                        </Button>
-                    </div>
+                    <Button
+                        onClick = { showExampleString }>
+                        string
+                    </Button>
                 </li>
                 <li>
-                    <div>
-                        <Button
-                            onClick = { showExampleObject }>
-                            object
-                        </Button>
-                    </div>
+                    <Button
+                        onClick = { showExampleObject }>
+                        object
+                    </Button>
                 </li>
                 <li>
-                    <div>
-                        <Button
-                            onClick = { showExampleSymbol }>
-                            symbol
-                        </Button>
-                    </div>
+                    <Button
+                        onClick = { showExampleSymbol }>
+                        symbol
+                    </Button>
                 </li>
             </ul>
             <HeaderH3>Logical operators and arithmetics</HeaderH3>

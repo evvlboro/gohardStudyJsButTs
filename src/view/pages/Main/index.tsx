@@ -1,8 +1,6 @@
 // Core
-import React, { FC, useRef } from 'react';
-
-// Tools
-import { useOnScreen } from '../../../tools/hooks';
+import React, { FC } from 'react';
+import { useHistory } from 'react-router-dom';
 
 // Components
 import { ErrorBoundary } from '../../components';
@@ -10,15 +8,17 @@ import { ErrorBoundary } from '../../components';
 // Styles
 import { Container } from './styles';
 
+// Book
+import { book } from '../../routes/book';
+
 const Main: FC = () => {
-    const divRef = useRef(null);
-    const visible = useOnScreen(divRef, '0px');
+    const { push } = useHistory();
 
     return (
         <Container>
-            <div ref = { divRef }>
-                {visible ? 'visible' : 'hide'}
-            </div>
+            <button onClick = { () => void push(book.LESSON1) }>
+                Lesson 1
+            </button>
         </Container>
     );
 };

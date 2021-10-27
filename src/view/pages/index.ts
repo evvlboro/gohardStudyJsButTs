@@ -6,3 +6,4 @@ export const Main = lazy(() => import(/* webpackChunkName: "Main" */ './Main'));
 export const Register = lazy(() => import(/* webpackChunkName: "Register" */ './Register'));
 export const Lesson1 = lazy(() => import(/* webpackChunkName: "Lesson1" */ './Lesson1'));
 export const Lesson2 = lazy(() => import(/* webpackChunkName: "Lesson2" */ './Lesson2'));
+export const Lesson3 = lazy(() => import(/* webpackChunkName: "Lesson3" */ './Lesson3'));

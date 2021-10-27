@@ -22,6 +22,9 @@ const Main: FC = () => {
             <button onClick = { () => void push(book.LESSON2) }>
                 Lesson 2
             </button>
+            <button onClick = { () => void push(book.LESSON3) }>
+                Lesson 3
+            </button>
         </Container>
     );
 };

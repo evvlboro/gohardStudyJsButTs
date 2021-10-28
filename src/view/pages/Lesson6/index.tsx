@@ -147,7 +147,7 @@ const Lesson6: FC<PropTypes> = () => {
 
                         const array = [ 1, 6, 4, 2 ];
 
-                        const result = every(array, function (item, i, array) {
+                        const result = every(array, function (item) {
                             return item % 2 === 0;
                         });
 

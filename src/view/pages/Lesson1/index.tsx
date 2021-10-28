@@ -9,7 +9,10 @@ import { useHistory } from 'react-router-dom';
 import { useMessages } from '../../../bus/messages';
 
 // Components
-import { ErrorBoundary, Button, HeaderH1, HeaderH3 } from '../../components';
+import { ErrorBoundary } from '../../components';
+
+// Elements
+import { Button, HeaderH1, HeaderH3 } from '../../elements';
 
 // Styles
 import * as S from './styles';

@@ -91,6 +91,41 @@ export const Private: FC = () => {
                 path = { book.LESSON15 }>
                 <pages.Lesson15 />
             </Route>
+            <Route
+                exact
+                path = { book.LESSON16 }>
+                <pages.Lesson16 />
+            </Route>
+            <Route
+                exact
+                path = { book.LESSON17 }>
+                <pages.Lesson17 />
+            </Route>
+            <Route
+                exact
+                path = { book.LESSON18 }>
+                <pages.Lesson18 />
+            </Route>
+            <Route
+                exact
+                path = { book.LESSON19 }>
+                <pages.Lesson19 />
+            </Route>
+            <Route
+                exact
+                path = { book.LESSON20 }>
+                <pages.Lesson20 />
+            </Route>
+            <Route
+                exact
+                path = { book.LESSON21 }>
+                <pages.Lesson21 />
+            </Route>
+            <Route
+                exact
+                path = { book.LESSON22 }>
+                <pages.Lesson22 />
+            </Route>
 
             <Redirect to = '/' />
         </Switch>

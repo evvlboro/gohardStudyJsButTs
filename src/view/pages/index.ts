@@ -19,3 +19,10 @@ export const Lesson12 = lazy(() => import(/* webpackChunkName: "Lesson12" */ './
 export const Lesson13 = lazy(() => import(/* webpackChunkName: "Lesson13" */ './Lesson13'));
 export const Lesson14 = lazy(() => import(/* webpackChunkName: "Lesson14" */ './Lesson14'));
 export const Lesson15 = lazy(() => import(/* webpackChunkName: "Lesson15" */ './Lesson15'));
+export const Lesson16 = lazy(() => import(/* webpackChunkName: "Lesson16" */ './Lesson16'));
+export const Lesson17 = lazy(() => import(/* webpackChunkName: "Lesson17" */ './Lesson17'));
+export const Lesson18 = lazy(() => import(/* webpackChunkName: "Lesson18" */ './Lesson18'));
+export const Lesson19 = lazy(() => import(/* webpackChunkName: "Lesson19" */ './Lesson19'));
+export const Lesson20 = lazy(() => import(/* webpackChunkName: "Lesson20" */ './Lesson20'));
+export const Lesson21 = lazy(() => import(/* webpackChunkName: "Lesson21" */ './Lesson21'));
+export const Lesson22 = lazy(() => import(/* webpackChunkName: "Lesson22" */ './Lesson22'));

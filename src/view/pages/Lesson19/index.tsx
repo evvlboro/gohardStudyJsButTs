@@ -1,11 +1,18 @@
 // Core
 import React, { FC } from 'react';
+import { useHistory } from 'react-router-dom';
 
 // Bus
 // import {} from '../../../bus/'
 
 // Components
 import { ErrorBoundary } from '../../components';
+
+// Elements
+import { Button, HeaderH1 } from '../../elements';
+
+// Book
+import { book } from '../../routes/book';
 
 // Styles
 import * as S from './styles';
@@ -16,9 +23,17 @@ type PropTypes = {
 }
 
 const Lesson19: FC<PropTypes> = () => {
+    const { push } = useHistory();
+    const sym = Symbol('foo');
+    console.log(sym);
+
     return (
         <S.Container>
-            Page: Lesson19
+            <Button
+                onClick = { () => void push(book.ROOT) }>
+                Back
+            </Button>
+            <HeaderH1>Lesson 19: Symbols </HeaderH1>
         </S.Container>
     );
 };

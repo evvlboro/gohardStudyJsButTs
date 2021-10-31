@@ -66,6 +66,7 @@ const Lesson16: FC<PropTypes> = () => {
                 Classes in JS are built on prototypes but also have some syntax and semantics
                 that are not shared with ES5 class-like semantics.
             </HeaderH3>
+            <p>Example of inheritance in the console.</p>
 
         </S.Container>
     );

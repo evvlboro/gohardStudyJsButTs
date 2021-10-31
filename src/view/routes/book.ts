@@ -12,4 +12,7 @@ export const book = Object.freeze({
     LESSON10: '/lesson-10',
     LESSON11: '/lesson-11',
     LESSON12: '/lesson-12',
+    LESSON13: '/lesson-13',
+    LESSON14: '/lesson-14',
+    LESSON15: '/lesson-15',
 });

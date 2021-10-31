@@ -24,22 +24,6 @@ type PropTypes = {
 
 
 const Lesson10: FC<PropTypes> = () => {
-    const obj = {
-        name: 'Yauhen',
-        age:  24,
-    };
-    const arr = [ 'Yauhen', 24 ];
-    const [ z, w ] = arr;
-
-    const nArr = [ ...arr, 2, 5 ];
-
-    const { name, age } = obj;
-
-    const nowObj = {
-        ...obj,
-        age: 25,
-    };
-
     const { push } = useHistory();
 
     return (

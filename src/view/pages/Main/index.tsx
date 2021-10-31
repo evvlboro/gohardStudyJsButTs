@@ -46,6 +46,15 @@ const Main: FC = () => {
             <button onClick = { () => void push(book.LESSON10) }>
                 Lesson 10
             </button>
+            <button onClick = { () => void push(book.LESSON11) }>
+                Lesson 11
+            </button>
+            <button onClick = { () => void push(book.LESSON12) }>
+                Lesson 12
+            </button>
+            <button onClick = { () => void push(book.LESSON13) }>
+                Lesson 13
+            </button>
         </Container>
     );
 };

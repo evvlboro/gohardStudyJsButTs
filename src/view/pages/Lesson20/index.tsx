@@ -35,7 +35,7 @@ const Lesson20: FC<PropTypes> = ()  => {
     После создания, объект-итератор может быть явно использован, с помощью вызовов метода next().*/
 
     function makeIterator(array: Array<any>) {
-        var nextIndex = 0;
+        let nextIndex = 0;
 
         return {
             next: function () {
